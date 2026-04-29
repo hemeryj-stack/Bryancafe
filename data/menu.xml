@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+  <category title="Meals">
+    <item>
+      <name>Beetroot and Feta Salad</name>
+      <price>$15.00</price>
+      <description>Suitable for vegetarians, made with fresh beetroot and feta salad.</description>
+      <image>beetroot.jpg</image>
+      <alt>Beetroot and feta salad served in a bowl</alt>
+    </item>
+    <item>
+      <name>Sourdough Rye Sandwich</name>
+      <price>$18.00</price>
+      <description>Cheese and salad sandwich made with organic sourdough rye bread.</description>
+      <image>sourdough.jpg</image>
+      <alt>Sourdough rye sandwich with fresh filling</alt>
+    </item>
+    <item>
+      <name>Spinach Pie and Salad</name>
+      <price>$20.00</price>
+      <description>Tasty pie with salad.</description>
+      <image>spinach.jpg</image>
+      <alt>Spinach pie served with a side salad</alt>
+    </item>
+    <item>
+      <name>Feta Pancakes with Salad</name>
+      <price>$19.50</price>
+      <description>Tasty pancake filled with feta and salad.</description>
+      <image>pancakes.jpg</image>
+      <alt>Feta pancakes served with salad</alt>
+    </item>
+  </category>
+  <category title="Beverages and Chocolates">
+    <item>
+      <name>Coffee - Small</name>
+      <price>$3.50</price>
+      <description>For coffee, please inform the staff of the coffee type.</description>
+      <image>small.jpg</image>
+      <alt>Small coffee in a café cup</alt>
+    </item>
+    <item>
+      <name>Coffee - Regular</name>
+      <price>$4.00</price>
+      <description>For coffee, please inform the staff of the coffee type.</description>
+      <image>regular.jpg</image>
+      <alt>Regular coffee in a café cup</alt>
+    </item>
+    <item>
+      <name>Coffee - Large</name>
+      <price>$4.50</price>
+      <description>For coffee, please inform the staff of the coffee type.</description>
+      <image>large.jpg</image>
+      <alt>Large coffee in a takeaway cup</alt>
+    </item>
+  </category>
+  <category title="Other Beverages">
+    <item>
+      <name>Soda</name>
+      <price>$3.00</price>
+      <description>Chilled soda drink.</description>
+      <image>soda-drinks.jpg</image>
+      <alt>Glass of soda with ice</alt>
+    </item>
+    <item>
+      <name>Fresh Juice</name>
+      <price>$6.00</price>
+      <description>Freshly prepared juice.</description>
+      <image>juice.jpg</image>
+      <alt>Fresh juice served in a glass</alt>
+    </item>
+    <item>
+      <name>Bottled Water</name>
+      <price>$2.00</price>
+      <description>Still bottled water.</description>
+      <image>water.jpg</image>
+      <alt>Bottled water on a table</alt>
+    </item>
+  </category>
+</menu>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="index.html">Bryan’s Café</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="menu.html" aria-current="page">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container page-spacing">
+    <section class="page-heading">
+      <h1>Our Menu</h1>
+      <p>Discover our delicious menu below.</p>
+    </section>
+
+    <section id="menu-content" class="menu-layout" aria-live="polite">
+      <p class="loading">Loading menu items…</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p id="copyright"></p>
+      <a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<!ELEMENT branches (branch+)>
+<!ELEMENT branch (address, suburb, phone, openingHours, mapLink)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT suburb (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT openingHours (day+)>
+<!ELEMENT day (#PCDATA)>
+<!ATTLIST day name CDATA #REQUIRED>
+<!ELEMENT mapLink (#PCDATA)>
